@@ -1,4 +1,4 @@
-# JavaScript Assignment - Blog Post by T-Ralph
+# JavaScript - Blog Post by T-Ralph
 
 ## Requirements
 - Create a class named “Article” which contains a constructor and output method:
@@ -16,4 +16,4 @@
 
 Docs: https://docs.google.com/document/d/1CnYPZ8gSpJDzck3VzzsRV0mXgtN_SAa9vuTbYkCD_qo/edit#heading=h.6id9wetw9whh <br>
 Trello: https://trello.com/b/0JCo6Hds/javascript-assignment-blog-post-by-t-ralph <br>
-GitHub: https://github.com/TECHCareers-by-Manpower/javascript-exercise-blog-T-Ralph <br># javascript-exercise-blog
+GitHub: https://github.com/TECHCareers-by-Manpower/javascript-exercise-blog-T-Ralph <br>

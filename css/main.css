@@ -1,0 +1,140 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    background-color: #009ACD;
+    padding: 50px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Caveat', cursive;
+}
+a, a:link, a:visited, a:active, a:hover {
+    color: #FFFFFF;
+}
+form > input[type=text] {
+    width: 100%;
+    height: 35px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+form > textarea {
+    width: 100%;
+    height: 150px;
+    font-size: 20px;
+    font-family: 'Caveat', cursive;
+}
+form > input[type=submit] {
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 10px 0px;
+    border: 0px;
+    padding: 15px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Antic Slab', serif;
+}
+header {
+    grid-area: header;
+    background-color: #00BFFF;
+    border-right: 3px solid #FFFFFF;
+    padding: 20px;
+}
+header > nav, main > article {
+    text-align: justify;
+}
+header > nav > h2 {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Antic Slab', serif;
+}
+header > nav > ul {
+    list-style-type: square;
+}
+header > nav > ul > li {
+    margin: 10px;
+    font-size: 15px;
+    font-family: 'Antic Slab', serif;
+}
+a, a:link, a:visited, a:active, a:hover {
+    color: #FFFFFF;
+}
+main {
+    grid-area: main;
+    background-color: #FFFFFF;
+    border-right: 3px solid #000000;
+    padding: 25px;
+}
+main > article > h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Antic Slab', serif;
+}
+main > article > section {
+    border-bottom: 1px solid #00BFFF;
+    padding-bottom: 20px;
+}
+main > article > section > h2 {
+    margin: 20px 20px 5px 0px;
+    text-align: left;
+    font-size: 30px;
+    font-family: 'Antic Slab', serif;
+}
+main > article > section > span {
+    text-align: left;
+    font-size: 15px;
+}
+main > article > section > button {
+    background-color: #8D021F;
+    color: #FFFFFF;
+    margin: 0px 5px;
+    border: 0px;
+    padding: 3px 5px;
+    font-size: 12px;
+    cursor: pointer;
+    display: inline;
+    font-weight: bold;
+    font-family: 'Antic Slab', serif;
+}
+main > article > section > p {
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+}
+footer {
+    grid-area: footer;
+    text-align: center;
+    padding: 10px;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Antic Slab', serif;
+}
+body {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+        "header"
+        "main"
+        "footer";
+}
+@media screen and ( min-width: 800px ) {
+    body {
+        grid-template-columns: 30% 70%;
+        grid-template-areas:
+            "header main"
+            "footer footer";
+    }
+    header {
+        border-left: 0px;
+        border-right: 3px solid #FFFFFF;
+    }
+    main {
+        border-right: 0px;
+        border-left: 5px solid #000000;
+    }
+}
