@@ -17,3 +17,4 @@
 Docs: https://docs.google.com/document/d/1CnYPZ8gSpJDzck3VzzsRV0mXgtN_SAa9vuTbYkCD_qo/edit#heading=h.6id9wetw9whh <br>
 Trello: https://trello.com/b/0JCo6Hds/javascript-assignment-blog-post-by-t-ralph <br>
 GitHub: https://github.com/TECHCareers-by-Manpower/javascript-exercise-blog-T-Ralph <br>
+GitHub.IO Page: https://t-ralph.github.io/javascript-exercise-blog/ <br>
